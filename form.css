@@ -1,0 +1,21 @@
+#formlink {
+	color: red;
+}
+li {
+	list-style-type: none;
+	cursor: pointer;
+	display: inline;
+}
+a {
+	text-decoration: none;
+}
+h1,h3 { 
+	justify-content: center;
+	font-style:italic;  
+}
+body {
+	text-align: center;
+	color:white;
+	background-image: url("formimg.jpg");
+	background-size:1500px;
+}

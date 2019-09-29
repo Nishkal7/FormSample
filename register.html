@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="register.css">
+</head>
+<body>
+	<form method="GET"><!--action="/action_page.php" method="post"-->
+		<table>
+			<tr>
+				<td>
+				    <label for="First Name">First Name :</label>	
+				</td>
+				<td>
+					<input type="text" name = "firstname" placeholder="Enter First Name" required>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					 <label for="Last Name">Last Name :</label>
+				</td>
+				<td>
+					<input type="text" name = "lasttname" placeholder="Enter Last Name" required>
+				</td>
+			</tr>
+             <tr>
+				<td>
+				    <label for="Age">Age :</label>	
+				</td>
+				<td>
+					<input type="text" name = "age" placeholder="Enter Age">
+				</td>
+			</tr>
+			<tr>
+				<td>
+				    <label for="email">Email :</label>	
+				</td>
+				<td>
+					<input type="email" name="email" placeholder="Enter Correct mail">
+				</td>
+			</tr>
+			<tr>
+				<td>
+				    <label for="password">Password :</label>	
+				</td>
+				<td>
+					<input type="password" name="password" minlength="6">
+				</td>
+			</tr>
+			<tr>
+				<td>
+				    <label for="Birthday">Birthday :</label>	
+				</td>
+				<td>
+					<input type="date" name="birthday">
+				</td>
+			</tr>
+		</table>
+		Gender : <br>
+		<input type="radio" name="gender" value="Male">Male
+		<input type="radio" name="gender" value="Female">Female
+		<input type="radio" name="gender" value="Other">Other<br><br>
+        Education : <br>
+        <input type="checkbox" name="School">School
+        <input type="checkbox" name="Intermediate">Intermediate
+        <input type="checkbox" name="Engineering/Degree">Engineering/Degree<br><br>
+        Course     :
+        <select name="Courses">
+        	<option value="Artificial Intelligence">Artificial Intelligence</option>
+        	<option value="Web and Mobile Development">Web and Mobile Development</option>
+        	<option value="Game Development">Game Development</option>
+        	<option value="Cloud Technologies">Cloud Technologies</option>
+        </select><br><br>
+		<input style="color:purple" type="submit" value="Register!">
+		<input style="color:red" type="reset">
+	</form>
+</body>
+</html>
